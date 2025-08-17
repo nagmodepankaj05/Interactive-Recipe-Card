@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Recipe Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="recipeCard">
+        <h1 class="title">Chocolate Cake</h1>
+        <div class="img">
+            <img src="Chocolate_Cake1.jpeg">
+        </div>
+        <div class="info">
+            <p><strong>Preparation Time:</strong> 45 min</p>
+            <p><strong>Servings:</strong> 8</p>
+        </div>
+        <button class="btn" id="ingredients">Show Ingredients</button>
+        <ul class="ingredients-menu hidden">
+            <li>2 cups all-purpose flour</li>
+            <li>2 cups sugar</li>
+            <li>3/4 cup cocoa powder</li>
+            <li>2 tsp baking powder</li>
+            <li>1 tsp salt</li>
+            <li>1 cup milk</li>
+            <li>2 eggs</li>
+            <li>1/2 cup vegetable oil</li>
+            <li>2 tsp vanilla extract</li>
+        </ul>
+        <button id="cooking" class="btn">Start Cooking</button>
+        <ol class="steps">
+            <li>Preheat oven to 350°F (175°C).</li>
+            <li>Mix flour, sugar, cocoa, baking powder, and salt.</li>
+            <li>Add milk, eggs, oil, and vanilla. Mix until smooth.</li>
+            <li>Pour into greased baking pan.</li>
+            <li>Bake for 30-35 minutes.</li>
+            <li>Cool before serving.</li>
+        </ol>
+
+        <div class="process-bar">
+            <div id="process" class="process"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
